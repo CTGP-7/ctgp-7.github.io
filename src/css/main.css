@@ -1,0 +1,133 @@
+@font-face {
+	font-family: Mario-Kart;
+	src:
+	url(../font/mariokart.ttf);
+}
+@font-face {
+	font-family: SuperMarioBros;
+	src:
+	url(../font/supermariobros.ttf);
+}
+@font-face {
+	font-family: SuperMario256;
+	src:
+	url(../font/SuperMario256.ttf);
+}
+body, html {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	font-family: "Mario-Kart";
+}
+.mariobros {
+	font-family: "SuperMarioBros";
+}
+.mariobros.small {
+	font-size: 8.3pt;
+}
+.supermario256 {
+	font-family: "SuperMario256" !important;
+	letter-spacing: 1.2px;
+}
+p > strong {
+	font-family: "SuperMario256" !important;
+	letter-spacing: 11.2px;
+	font-size: 18pt
+}
+.discordTag {
+font-family: "SuperMario256" !important;
+	letter-spacing: 1.2px !important;
+	font-size: 15pt !important;
+	text-decoration: none;
+}
+p > i {
+font-family: "SuperMario256" !important;
+	letter-spacing: 1.5px;
+}
+.plumberbros.small {
+	font-size: 6pt;
+}
+.mariobros > a, ul > a, ul {
+font-family: "SuperMarioBros";
+
+}
+ul {
+	color: white
+}
+ul > a {
+	font-family: "SuperMarioBros";
+}
+li {
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+a {
+	color: white;
+	text-decoration: underline;
+}
+a:visited {
+	color: white;
+	text-decoration: underline;
+}
+a:hover {
+	color: gray;
+	text-decoration: underline;
+}
+.title {
+	text-align: center;
+	letter-spacing: normal;
+	margin-bottom: 2%
+}
+.title-img {
+	text-align: center;
+}
+.container {
+	text-align: center;
+}
+.subtitles {
+	margin-bottom: 5%;
+}
+.directory {
+	margin-bottom: 3%;
+	text-align: left;
+	font-size: 9pt !important;
+	outline: 2px dashed red;
+	padding: 6px 6px 6px 6px;
+}
+.faq {
+	color: white
+	margin-top: 3%;
+}
+.question {
+	color: white;
+}
+.answer, .answer > a, .red {
+	font-family: "SuperMario256";
+	letter-spacing: 1px;
+}
+.line {
+	height: 2px !important;
+	color: white !important;
+	background-color: white !important;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.blank-divider {
+	height: 2px !important;
+	color: black !important;
+	background-color: black !important;
+	margin-bottom: 3%;
+}
+code {
+	background-color: #2b2b2b;
+	color: red;
+}
+.red {
+	display: inline-block;
+	color: red;
+}
+.credits {
+	margin-bottom: 5%;
+}
