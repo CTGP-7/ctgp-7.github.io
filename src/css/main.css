@@ -1,19 +1,19 @@
 @font-face {
 	font-family: Mario-Kart;
 	src:
-	url(../font/mariokart.ttf);
+	url(https://ctgp-7.github.io/font/mariokart.ttf);
 }
 @font-face {
 	font-family: SuperMarioBros;
 	src:
-	url(../font/supermariobros.ttf);
+	url(https://ctgp-7.github.io/font/supermariobros.ttf);
 }
 @font-face {
 	font-family: SuperMario256;
 	src:
-	url(../font/SuperMario256.ttf);
+	url(https://ctgp-7.github.io/font/SuperMario256.ttf);
 }
-body, html {
+body, html, h2, h3, h4, h5, h6, p {
 	background-color: black;
 	color: white;
 }
