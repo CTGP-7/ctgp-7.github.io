@@ -21,6 +21,9 @@ body, html {
 h1 {
 	font-family: "Mario-Kart";
 }
+.mariokart {
+	font-family: "Mario-Kart";
+}
 .mariobros {
 	font-family: "SuperMarioBros";
 }
@@ -60,8 +63,8 @@ ul > a {
 	font-family: "SuperMarioBros";
 }
 li {
-	margin-top: 0.5%;
-	margin-bottom: 0.5%;
+	margin-top: 3.5%;
+	margin-bottom: 3.5%;
 }
 a {
 	color: white;
@@ -90,11 +93,40 @@ a:hover {
 	margin-bottom: 5%;
 }
 .directory {
-	margin-bottom: 3%;
+	width: 50%;
 	text-align: left;
 	font-size: 9pt !important;
+	padding: 6px 6px 6px 6px;
+	float: left;
+}
+.description {
+	margin-top: 2.3%;
+	width: 50%;
+	float: right;
+	text-align: center;
+	height: 100%
+}
+.desc {
+	font-size: 10pt;
+	color: white;
+
+}
+.container-b {
+	overflow: hidden;
+	text-align: center;
 	outline: 2px dashed red;
 	padding: 6px 6px 6px 6px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	width: 100%;
+	height: 30vw;
+}
+.container-c {
+	margin-top: 5vw;
+	width: 100%;
+	height: 100%;
 }
 .faq {
 	color: white
@@ -108,11 +140,21 @@ a:hover {
 	letter-spacing: 1px;
 }
 .line {
-	height: 2px !important;
+	/*height: 2px !important;
 	color: white !important;
-	background-color: white !important;
+	background-color: white !important;*/
 	margin-top: 5%;
 	margin-bottom: 5%;
+}
+]
+.links {
+	font-size: 8pt;
+}
+.links-title {
+	font-size: 12pt;
+}
+.links-container {
+	margin-bottom: 15%;
 }
 .blank-divider {
 	height: 2px !important;
