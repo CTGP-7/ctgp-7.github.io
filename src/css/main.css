@@ -68,15 +68,15 @@ li {
 }
 a {
 	color: white;
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 a:visited {
 	color: white;
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 a:hover {
 	color: gray;
-	text-decoration: underline;
+	text-decoration: underline !important;
 }
 .title {
 	text-align: center;
@@ -102,9 +102,9 @@ a:hover {
 .description {
 	margin-top: 2.3%;
 	width: 50%;
-	float: right;
 	text-align: center;
-	height: 100%
+	height: 100%;
+	float: right;
 }
 .desc {
 	font-size: 10pt;
@@ -121,7 +121,6 @@ a:hover {
 	margin-bottom: 3%;
 	margin-top: 3%;
 	width: 100%;
-	height: 30vw;
 }
 .container-c {
 	margin-top: 5vw;
@@ -131,9 +130,11 @@ a:hover {
 .faq {
 	color: white
 	margin-top: 3%;
+	text-decoration: none;
 }
 .question {
 	color: white;
+	
 }
 .answer, .answer > a, .red {
 	font-family: "SuperMario256";
@@ -172,4 +173,7 @@ code {
 }
 .credits {
 	margin-bottom: 5%;
+}
+.hide {
+	display: none !important;
 }
