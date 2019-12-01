@@ -16,34 +16,32 @@
 body, html {
 	background-color: black;
 	color: white;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	overflow-x: hidden;
 }
-
 h1 {
 	font-family: "Mario-Kart";
 }
 .mariokart {
 	font-family: "Mario-Kart";
 }
-.mariobros {
-	font-family: "SuperMarioBros";
+.title p {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 1.7em;
+	margin: 0;
 }
-.mariobros.small {
-	font-size: 8.3pt;
+.title p.subtitle {
+	margin-top: .5em;
+	font-size: .8em;
 }
-.supermario256 {
-	font-family: "SuperMario256" !important;
-	letter-spacing: 1.2px;
+a, a:visited {
+	color: #686868 !important;
+	text-decoration: none !important;
 }
-p > strong {
-	font-family: "SuperMario256" !important;
-	letter-spacing: 11.2px;
-	font-size: 18pt
-}
-.discordTag {
-font-family: "SuperMario256" !important;
-	letter-spacing: 1.2px !important;
-	font-size: 15pt !important;
-	text-decoration: none;
+a:hover {
+	color: #525252 !important;
+	text-decoration: none !important;
 }
 p > i {
 font-family: "SuperMario256" !important;
@@ -66,32 +64,21 @@ li {
 	margin-top: 3.5%;
 	margin-bottom: 3.5%;
 }
-a {
-	color: white;
-	text-decoration: underline !important;
-}
-a:visited {
-	color: white;
-	text-decoration: underline !important;
-}
-a:hover {
-	color: gray;
-	text-decoration: underline !important;
-}
 .title {
 	text-align: center;
 	letter-spacing: normal;
-	margin-bottom: 2%
+	margin-bottom: 0;
 }
-.title-img {
+.title img, img.lakitu{
 	text-align: center;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0;
 }
-.container {
-	text-align: center;
+span {
+	color: red;
 }
-.subtitles {
-	margin-bottom: 5%;
-}
+
 .directory {
 	width: 50%;
 	text-align: left;
@@ -99,46 +86,33 @@ a:hover {
 	padding: 6px 6px 6px 6px;
 	float: left;
 }
-.description {
-	margin-top: 2.3%;
-	width: 50%;
-	text-align: center;
-	height: 100%;
-	float: right;
-}
-.desc {
-	font-size: 10pt;
-	color: white;
-
-}
-.container-b {
-	overflow: hidden;
-	text-align: center;
-	outline: 2px dashed red;
-	padding: 6px 6px 6px 6px;
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-bottom: 3%;
-	margin-top: 3%;
-	width: 100%;
-}
-.container-c {
-	margin-top: 5vw;
-	width: 100%;
-	height: 100%;
-}
 .faq {
-	color: white
-	margin-top: 3%;
-	text-decoration: none;
+	margin-bottom: 1.85em;
 }
-.question {
-	color: white;
-	
+.questions, .faq, .credits {
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: center;
 }
-.answer, .answer > a, .red {
-	font-family: "SuperMario256";
-	letter-spacing: 1px;
+.questions, .credits, .credits ul {
+	font-family: 'Press Start 2P', cursive;
+}
+.credits h2 {
+	font-size: 1.7em;
+}
+
+.credits ul {
+	font-size: .8em;
+	list-style: none;
+}
+.faq h3 {
+	font-size: 1.3em;
+	margin-bottom: 5px;
+}
+.faq p {
+	margin-top: 10px;
+	font-size: .8em;
+	font-family: 'Press Start 2P', cursive;
 }
 .line {
 	/*height: 2px !important;
@@ -147,7 +121,6 @@ a:hover {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
-]
 .links {
 	font-size: 8pt;
 }
@@ -172,8 +145,29 @@ code {
 	color: red;
 }
 .credits {
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
 .hide {
 	display: none !important;
+}
+.calltoaction, .imp-links {
+	margin-top: 3em;
+	font-family: 'Press Start 2P', cursive;
+}
+.calltoaction h4, .imp-links h4{
+	font-size: .9em;
+}
+.imp-links ul {
+	font-family: 'Press Start 2P', cursive;
+	font-size: .7em;
+}
+.col-lg-3 {
+	margin-left: .5em;
+	margin-right: .5em;
+}
+@media screen and (max-width: 990px) {
+	.col-lg-3 {
+		display: none !important;
+	}
 }
