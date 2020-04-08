@@ -87,7 +87,9 @@ span {
 	float: left;
 }
 .faq {
-	margin-bottom: 1.85em;
+	margin-bottom: 2.5em;
+	background-color: rgba(29, 29, 29, 0.363);
+	padding: .75em;
 }
 .questions, .faq, .credits {
 	margin-left: 1%;
@@ -104,6 +106,9 @@ span {
 .credits ul {
 	font-size: .8em;
 	list-style: none;
+}
+.credits ul li {
+	margin: .5em;
 }
 .faq h3 {
 	font-size: 1.3em;
