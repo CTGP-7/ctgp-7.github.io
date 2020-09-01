@@ -14,7 +14,11 @@
 	url(https://ctgp-7.github.io/src/font/SuperMario256.ttf);
 }
 body, html {
-	background-color: black;
+	background-image: url("../../background.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 	color: white;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
@@ -87,8 +91,8 @@ span {
 	float: left;
 }
 .faq {
-	margin-bottom: 2.5em;
-	background-color: rgba(29, 29, 29, 0.363);
+	background-color: rgba(29, 29, 29, 0.7);
+	margin-bottom: 2em;
 	padding: .75em;
 }
 .questions, .faq, .credits {
@@ -143,6 +147,8 @@ span {
 }
 code {
 	background-color: #2b2b2b;
+	font-size: 1.4em;
+	margin: 0;
 	color: red;
 }
 .red {
@@ -150,6 +156,8 @@ code {
 	color: red;
 }
 .credits {
+	padding: .5em;
+	background-color: rgba(29, 29, 29, 0.7);
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -157,7 +165,9 @@ code {
 	display: none !important;
 }
 .calltoaction, .imp-links {
-	margin-top: 3em;
+	padding: .5em;
+	background-color: rgba(29, 29, 29, 0.7);
+	margin-top: 2em;
 	font-family: 'Press Start 2P', cursive;
 }
 .calltoaction h4, .imp-links h4{
@@ -170,6 +180,18 @@ code {
 .col-lg-3 {
 	margin-left: .5em;
 	margin-right: .5em;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 @media screen and (max-width: 990px) {
 	.col-lg-3 {
