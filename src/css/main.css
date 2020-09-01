@@ -19,7 +19,7 @@ body, html {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	color: white;
+	color: black;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	overflow-x: hidden;
