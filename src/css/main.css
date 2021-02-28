@@ -14,7 +14,7 @@
 	url(https://ctgp-7.github.io/src/font/SuperMario256.ttf);
 }
 body, html {
-	background-image: url("../../background.png");
+	background-image: url("../images/background.png");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -41,11 +41,11 @@ h1 {
 	font-size: .8em;
 }
 a, a:visited {
-	color: #686868 !important;
+	color: #727cb4 !important;
 	text-decoration: none !important;
 }
 a:hover {
-	color: #525252 !important;
+	color: #9e9e9e !important;
 	text-decoration: none !important;
 }
 p > i {
