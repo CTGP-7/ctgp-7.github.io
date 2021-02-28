@@ -55,15 +55,9 @@ font-family: "SuperMario256" !important;
 .plumberbros.small {
 	font-size: 6pt;
 }
-.mariobros > a, ul > a, ul {
+.mariobros > a {
 font-family: "SuperMarioBros";
 
-}
-ul {
-	color: white
-}
-ul > a {
-	font-family: "SuperMarioBros";
 }
 li {
 	margin-top: 3.5%;
